@@ -1,0 +1,191 @@
+.heading
+{
+    height: 25px;
+    background: linear-gradient(
+        to right,
+        red,
+        green,
+        yellow
+    );
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+.list
+{
+    height: 80px;
+    width: 600px;
+    display: flex;
+    text-align: center;
+    border: 4px solid red;
+    margin:auto;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: gainsboro;
+
+}
+.container
+{
+background-color: skyblue;
+height: 300px;
+border-radius: 20px;
+display:grid;
+grid-template-columns: auto auto auto;
+
+
+
+}
+.one
+{
+    height: 100px;
+    width:400px;
+    border-radius:20px; 
+    border: 2px solid greenyellow;   
+}
+.two
+{
+    height: 100px;
+    width:400px;
+    border-radius:20px;
+    border: 2px solid greenyellow;
+    
+}
+.three
+{
+    height: 100px;
+    width:400px;
+    border-radius:20px;
+    border: 2px solid greenyellow;
+}
+.four
+{
+    height: 100px;
+    width:400px;
+    border-radius:20px;
+    border: 2px solid greenyellow;
+    text-align: center;
+    margin:0px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    
+}
+.jee
+{
+    text-align: center;
+    font-weight: bolder;
+    height: 25px;
+    background: linear-gradient(
+        to right,
+        red,
+        yellow,
+        red
+        
+    );
+
+}
+.container2
+{
+     height: 200px;
+    width: 1330px; 
+    background: radial-gradient(
+        green,
+        blue,
+        green
+    );
+    display: grid;
+ grid-template-columns: auto auto auto auto;
+}
+.marks
+{
+height: 100px;
+width: 150px;
+border: 2px solid green;
+background-color: yellow;
+margin: auto;
+border-radius: 15px;
+text-decoration: underline;
+text-align: center;
+color: brown;
+font-weight:bolder; 
+}
+.place
+{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: red;
+    color: white;
+}
+.container3{
+    border: 2px solid black;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    gap: 15px 10px;
+}
+
+.div3{
+    display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  background-color: red;
+  color: white;
+  border-radius: 15px;
+}
+.offer{
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+     color: white; 
+}
+.offers1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: rgb(155, 203, 65);
+}
+.offers2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: rgb(56, 133, 221);
+}
+.offers3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+        background-color: blueviolet;
+}
+.offers4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: orange;
+   }
+.offers5{
+  color: white;
+  background-color: rgb(151, 87, 87);
+  grid-row-start: 2;
+  grid-row-end:4;
+  grid-column-start: 4;
+  width: 85px;
+  font-size: smaller;
+  text-align: left;
+    
+}
+.div4{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: aqua;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+  justify-content: center;
+  align-items: flex-start;
+    }
